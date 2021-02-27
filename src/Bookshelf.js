@@ -9,7 +9,7 @@ function Bookshelf({ books, onBookChange, title }) {
       <h2 className="bookshelf-title">{title}</h2>
       <div className="bookshelf-books">
         <ol className="books-grid">
-        {books.map((book) => <Book key={book.id} book={book} currentShelf={book.shelf} onBookChange={onBookChange} />)}
+        {books.map((book) => <Book key={book.id} book={book} onBookChange={onBookChange} />)}
       </ol>
     </div>
   </div>);

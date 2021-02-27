@@ -95,7 +95,6 @@ class BooksApp extends React.Component {
     if (matchingBook) {
       return matchingBook.shelf;
     }
-    return null;
   }
 
   render() {
@@ -109,7 +108,7 @@ class BooksApp extends React.Component {
             </div>
           <div className="search-books-results">
             <ol className="books-grid">
-              {this.state.searchResults.map(searchResult => <Book key={searchResult.id} currentShelf={this.getShelfName(searchResult.id)} book={searchResult} onBookChange={this.handleBookChange} />)}
+              {this.state.searchResults.map(searchResult => <Book key={searchResult.id} assignedShelf={this.getShelfName(searchResult.id)} book={searchResult} onBookChange={this.handleBookChange} />)}
             </ol>
           </div>
         </div>)} />
