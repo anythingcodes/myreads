@@ -183,3 +183,6 @@ fabric.properties
 
 # nodenv version
 .node-version
+
+# yarn lock file
+yarn.lock
