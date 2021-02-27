@@ -2,6 +2,14 @@
   "name": "myreads-app",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
